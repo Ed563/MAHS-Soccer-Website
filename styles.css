@@ -1,0 +1,69 @@
+html{
+  background-color: #133C75;
+}
+body{
+  background-color: #133C75
+}
+.navbar{
+  background-color: maroon;
+  border-style: solid;
+  border-width: medium;
+  border-color: #CAA328;
+  }
+.nav-item a{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  }
+
+  .nav-item{
+    padding-left: 43px;
+    padding-right: 43px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-right: 0;
+    border-right: 2px solid #CAA328;
+  }
+  .nav-items a{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    }
+
+    .nav-items{
+      padding-left: 43px;
+      padding-right: 43px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  nav a:hover {
+    color: #CAA328;
+}
+h1{
+  color: white;
+  background-color: #133C75;
+  font-size: 100px;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+}
+.container {
+    text-align: center;
+}
+
+.flip-clock {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.carouselExampleInterval{
+margin-top: 50px;
+
+}
+h3{
+  color: white;
+  text-align: center;
+}
+.carousel-item{
+  height: 1300px;
+}
