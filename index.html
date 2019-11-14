@@ -33,7 +33,7 @@
           <a class="nav-link" href="contact-info.html">Contact Info</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="championship-history.html">Championship History</a>
+          <a class="nav-link" href="championship-history.html">2019 Season</a>
         </li>
         <li class="nav-items">
           <a class="nav-link" href="more-info.html">More Info</a>
@@ -43,39 +43,30 @@
 
     </div>
   </nav>
+  <!-- Inspired by https://codepen.io/transportedman/pen/NPWRGq -->
 
-  <h1>MAHS Soccer</h1>
+  <div class="carousel slide carousel-fade" data-ride="carousel">
 
-  <div class="container">
-      <div class="flip-clock">  <iframe src="http://free.timeanddate.com/countdown/i6zoygyf/n137/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac009/cpc000/pc900/tc900/fs130/szw448/szh189/tatCountdown%20to%20Kickoff/tac009/tptTime%20since%20Event%20started%20in/tpc000/iso2020-03-27T16:30:00/bacfff" allowTransparency="true" frameborder="0" width="351" height="89"></iframe>
-</div>
-<br>
-<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-interval="10000">
-      <img src="img/bestofwestchamps.jpeg" class="d-block w-60" alt="...">
-      <h3>2019 Best of the West Champions</h3>
-    </div>
-    <div class="carousel-item" data-interval="2000">
-      <img src="img/regionchamps.jpeg" class="d-block w-60" alt="...">
-      <h3>2019 District Champions</h3>
-    </div>
-    <div class="carousel-item" data-interval="400">
-      <img src="img/districtchamps.jpg" class="d-block w-60" alt="...">
-      <h3>2019 Regional Champions</h3>
-    </div>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+          <div class="item active">
+          </div>
+          <div class="item">
+          </div>
+          <div class="item">
+          </div>
+      </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-      <!-- Flip clock is attached the this element, not .container -->
+
+  <!-- Remeber to put all the content you want on top of the slider below the slider code -->
+
+  <div class="title">
+    <h1>MAHS Soccer</h1>
   </div>
+
+
+
+
 
 
 
@@ -87,8 +78,8 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>$('.carousel').carousel();</script>
 
 
   </body>
