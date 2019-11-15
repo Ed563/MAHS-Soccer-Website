@@ -64,7 +64,10 @@ h3{
   color: white;
   text-align: center;
 }
-
+.border{
+  border-top: #CAA328;
+  border-bottom: #CAA328
+}
 .regionchamp {
 
   width:200%;
