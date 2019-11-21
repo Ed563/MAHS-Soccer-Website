@@ -3,8 +3,8 @@ html {
     min-height: 100%;
 }
 body{
-  background: rgb(9,9,121);
-background: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(9,9,121,1) 39%, rgba(255,255,255,1) 73%);
+  background: #0b1C95;
+  color: white;
 }
 .navbar{
   background-color: maroon;
@@ -31,7 +31,10 @@ background: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(9,9,121,1) 39%, rgb
     font-size: 30px;
     text-align: center;
     }
-
+ul{
+  font-size: 40px;
+  color: #CAA328;
+}
     .nav-items{
       padding-left: 43px;
       padding-right: 43px;
@@ -64,10 +67,14 @@ h3{
   color: white;
   text-align: center;
 }
-.border{
-  border-top: #CAA328;
-  border-bottom: #CAA328
-}
+table.center {
+   margin-left:auto;
+   margin-right:auto;
+ }
+ <table class="center">
+   ...
+ </table>
+  body {text-align:center;}
 .regionchamp {
 
   width:200%;
@@ -92,6 +99,15 @@ h3{
 
   text-shadow:2px 2px #333;
 
+}
+.table{
+  border-bottom: 5px;
+  color: #CAA328;
+
+}
+.tabletable-bordered{
+  column-rule-color: #CAA328;
+  color:#CAA328;
 }
 .row {
   display: flex;
