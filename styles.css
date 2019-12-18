@@ -1,209 +1,131 @@
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
-body{
+
+body {
   background: #0b1C95;
   color: white;
 }
-.navbar{
-  background-color: maroon;
-  border-style: solid;
-  border-width: medium;
-  border-color: #CAA328;
-  }
-.nav-item a{
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  }
 
-  .nav-item{
-    padding-left: 43px;
-    padding-right: 43px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    border-right: 0;
-    border-right: 2px solid #CAA328;
-  }
-  .nav-items a{
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    }
-ul{
-  font-size: 40px;
-  color: #CAA328;
-}
-    .nav-items{
-      padding-left: 43px;
-      padding-right: 43px;
-      margin-top: 40px;
-      margin-bottom: 20px;
-    }
-  nav a:hover {
-    color: #CAA328;
-}
-h1{
+/*headings*/
+h1 {
   color: #CAA328;
   font-size: 100px;
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
 }
-h2{
+.h1.regionchamp h5 {
+  color: white;
+  text-shadow: 2px 2px #333;
+}
+h2 {
   font-size: 130px;
   text-align: center;
 }
-.container {
-    text-align: center;
-    background-size:cover;
-    float: left;
-}
-.carouselExampleInterval{
-margin-top: 50px;
-
-}
-h3{
+h3 {
   color: white;
   text-align: center;
 }
-table.center {
-   margin-left:auto;
-   margin-right:auto;
- }
- <table class="center">
-   ...
- </table>
-  body {text-align:center;}
-.regionchamp {
 
-  width:200%;
-
-  height:1000px;
-
-  background: url('img/regionchamps.jpeg');
-
-  background-repeat: no-repeat;
-
-  background-position: center;
-
-  background-size:cover;
-
-  background-attachment: fixed;
-
+/*navbar styles*/
+.navbar {
+  background-color: maroon;
+  border-style: solid;
+  border-width: medium;
+  border-color: #CAA328;
 }
 
-.h1.regionchamp h5 {
-
+.nav-item a {
   color: white;
-
-  text-shadow:2px 2px #333;
-
+  font-size: 30px;
+  text-align: center;
 }
-.table{
+
+.nav-item {
+  padding-left: 43px;
+  padding-right: 43px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-right: 0;
+  border-right: 2px solid #CAA328;
+}
+
+.nav-items a {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+ul {
+  font-size: 40px;
+  color: #CAA328;
+}
+
+.nav-items {
+  padding-left: 43px;
+  padding-right: 43px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+nav a:hover {
+  color: #CAA328;
+}
+
+.container {
+  text-align: center;
+  background-size: cover;
+  float: left;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+<table class="center">... </table>body {
+  text-align: center;
+}
+/* region champ image*/
+.regionchamp {
+  width: 200%;
+  height: 1000px;
+  background: url('img/regionchamps.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* table border*/
+.table {
   border-bottom: 5px;
   color: #CAA328;
+}
 
-}
-.tabletable-bordered{
+.tabletable-bordered {
   column-rule-color: #CAA328;
-  color:#CAA328;
+  color: #CAA328;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
-.div1 img{
+
+.div1 img {
   padding-left: 450px;
 }
-.div2 img{
+
+.div2 img {
   padding-left: 300px;
 }
-.div3 img{
+
+.div3 img {
   padding-left: 430px;
 }
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-.carousel-fade .carousel-inner .item {
-    opacity: 0;
-    transition-property: opacity;
-}
-.carousel-fade .carousel-inner .active {
-    opacity: 1;
-}
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-    left: 0;
-    opacity: 0;
-    z-index: 1;
-}
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-    opacity: 1;
-}
-.carousel-fade .carousel-control {
-    z-index: 2;
-}
-@media all and (transform-3d),
-(-webkit-transform-3d) {
-    .carousel-fade .carousel-inner > .item.next,
-    .carousel-fade .carousel-inner > .item.active.right {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-    .carousel-fade .carousel-inner > .item.prev,
-    .carousel-fade .carousel-inner > .item.active.left {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-    .carousel-fade .carousel-inner > .item.next.left,
-    .carousel-fade .carousel-inner > .item.prev.right,
-    .carousel-fade .carousel-inner > .item.active {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-}
-.item:nth-child(1) {
-    background: url("img/bestofwestchamps.jpeg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.item:nth-child(2) {
-    background: url("img/regionchamps.jpeg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.item:nth-child(3) {
-    background: url("img/districtchamps.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.carousel {
-    z-index: -99;
-}
-.carousel .item {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-}
 .title {
   text-align: center;
   margin-top: 20px;
@@ -216,4 +138,123 @@ figcaption {
   color: white;
   text-align: center;
   font-size: 50px;
+}
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+/* background carousel*/
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.carouselExampleInterval {
+  margin-top: 50px;
+}
+
+
+
+.item:nth-child(1) {
+  background: url("img/bestofwestchamps.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.item:nth-child(2) {
+  background: url("img/regionchamps.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.item:nth-child(3) {
+  background: url("img/districtchamps.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel {
+  z-index: -99;
+}
+
+.carousel .item {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+/*sizing of carousel for all screensizes*/
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+
+  .carousel-fade .carousel-inner>.item.next,
+  .carousel-fade .carousel-inner>.item.active.right {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  .carousel-fade .carousel-inner>.item.prev,
+  .carousel-fade .carousel-inner>.item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  .carousel-fade .carousel-inner>.item.next.left,
+  .carousel-fade .carousel-inner>.item.prev.right,
+  .carousel-fade .carousel-inner>.item.active {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+/*responsive for smaller screens*/
+@media (max-width: 900px) {
+  .fa {
+      font-size: 20px;
+      padding: 10px;
+  }
+  .navbar navbar-expand-lg{
+    background-color: black;
+    color: black;
+  }
+}
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none;
+  }
+  .navbar navbar-expand-lg{
+    background-color: black;
+    color: black;
 }
